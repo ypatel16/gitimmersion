@@ -3,5 +3,5 @@
 task :default => :run
 
 task :run do
-  require './lib/hello'
-end
+  ruby '-Ilib', 'lib/hello.rb'
+endgit add Rakefile
